@@ -79,6 +79,12 @@
  
             scope.itemValue = scope.itemState;
 
+            scope.asArray = function(x) {
+                return x;
+            }
+            
+            scope.helloWorld = "HelloWorld";
+            
             scope.itemsInGroup = function(group) {
                 return false;
                 /*return $filter('filter')(OHService.getItems(),
